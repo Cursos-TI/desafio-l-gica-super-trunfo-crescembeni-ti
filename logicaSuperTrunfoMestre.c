@@ -113,9 +113,9 @@ int main() {
     printf("Vencedor Atributo 2: Carta %d\n", vencedor2);
 
     if (soma1 > soma2) {
-        printf("\n🏆 Vencedor Final: %s\n", cidade1);
+        printf("\n Vencedor Final: %s\n", cidade1);
     } else if (soma2 > soma1) {
-        printf("\n🏆 Vencedor Final: %s\n", cidade2);
+        printf("\n Vencedor Final: %s\n", cidade2);
     } else {
         printf("\nEmpate!\n");
     }
